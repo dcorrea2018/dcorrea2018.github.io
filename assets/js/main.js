@@ -7,7 +7,8 @@ function loadData() {
     console.log("entro a cargar data..");
     fetch(ENDPOINT_BASE + "/endpoint_ingresos_mensuales",
         {
-            method: "GET"
+            method: "GET",
+            mode: "cors",
         })
         .then(response => response.json())
         .then(result => {
