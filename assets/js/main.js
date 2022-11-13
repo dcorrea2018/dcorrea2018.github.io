@@ -1,5 +1,5 @@
 console.log("Entro al main.js");
-const ENDPOINT_BASE = "https://ucamp.alumnos.dev4humans.com.mx/Main";
+const ENDPOINT_BASE = "http://ucamp.alumnos.dev4humans.com.mx/Main";
 const tblDatos = document.getElementById("tblDatos");
 const ctx = document.getElementById('myChart').getContext('2d');
 
